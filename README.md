@@ -8,7 +8,7 @@
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;假如你觉得生活拮据，找50个程序员问问工资涨了没有；
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;假如你觉得活着无聊，找50个程序员问问他们一天都干了什么！ 
 > 
-> <center>![这里写图片描述](http://img.blog.csdn.net/20170601154834248?watermark/2/text/aHR0cDovL2Jsb2cuY3Nkbi5uZXQvdTAxMjQwMDg4NQ==/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70/gravity/SouthEast) </center>
+> CSDN地址：http://blog.csdn.net/u012400885/article/details/72831012
 
 ## 前言
 端午三天，去天津玩了一圈，出去走走，放松放松，感觉也不错。来点正能量，今天，让我们一块研究研究如何使用GreenDao 3.2.2，从而逐步增强我们的逼格。
