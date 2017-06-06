@@ -16,6 +16,9 @@ import cn.hlq.greendaostudy.entity.DaoSession;
 import cn.hlq.greendaostudy.entity.Student;
 import cn.hlq.greendaostudy.entity.StudentDao;
 
+/**
+ * create by heliquan at 2017年6月5日 GreenDao Study Demo
+ */
 public class MainActivity extends Activity {
 
     private MainActivity self = MainActivity.this;
@@ -51,16 +54,15 @@ public class MainActivity extends Activity {
                 try {
                     Student stu = new Student(null, "001", "贺da宝", "男孩", "50");
                     long end = stuDao.insert(stu);
-                    String msg = "";
                     if (end > 0) {
-                        msg = "001新增成功~";
+                        Toast.makeText(self, "001新增成功~", Toast.LENGTH_SHORT).show();
                     } else {
-                        msg = "新增失败~";
+                        Toast.makeText(self, "001新增失败~", Toast.LENGTH_SHORT).show();
                     }
                     stuDao.insert(new Student(null, "002", "贺er宝", "男人", "66"));
                     stuDao.insert(new Student(null, "003", "贺san宝", "爷儿们", "23"));
                     stuDao.insert(new Student(null, "004", "贺si宝", "男人", "65"));
-                    Toast.makeText(self, "001 002 003 004新增成功~", Toast.LENGTH_SHORT).show();
+                    Toast.makeText(self, "002 003 004新增成功~", Toast.LENGTH_SHORT).show();
                 } catch (Exception e) {
                     e.printStackTrace();
                     Toast.makeText(self, "学员编号唯一，新增失败~", Toast.LENGTH_SHORT).show();
