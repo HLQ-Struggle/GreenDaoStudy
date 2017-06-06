@@ -672,7 +672,7 @@ public class Student {
             public void onClick(View v) {
                 int stuSumCount = stuDao.queryBuilder().list().size();
                 TextView tvSearchInfo = (TextView) findViewById(R.id.id_search_count_info);
-                tvSearchInfo.setText(stuSumCount);
+                tvSearchInfo.setText(stuSumCount + "");
             }
         });
 ```
